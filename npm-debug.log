@@ -1,0 +1,1061 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install'
+1 verbose cli ]
+2 info using npm@1.2.0
+3 info using node@v16.18.0
+4 verbose read json C:\Users\eh.sadeghi\Desktop\my-app\package.json
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [
+6 verbose install   'C:\\Users\\eh.sadeghi\\Desktop\\my-app',
+6 verbose install   [
+6 verbose install     '@fontsource/fira-mono',
+6 verbose install     '@neoconfetti/svelte',
+6 verbose install     '@playwright/test',
+6 verbose install     '@sveltejs/adapter-auto',
+6 verbose install     '@sveltejs/kit',
+6 verbose install     '@types/cookie',
+6 verbose install     '@typescript-eslint/eslint-plugin',
+6 verbose install     '@typescript-eslint/parser',
+6 verbose install     'eslint',
+6 verbose install     'eslint-config-prettier',
+6 verbose install     'eslint-plugin-svelte3',
+6 verbose install     'prettier',
+6 verbose install     'prettier-plugin-svelte',
+6 verbose install     'svelte',
+6 verbose install     'svelte-check',
+6 verbose install     'svelte-preprocess',
+6 verbose install     'tslib',
+6 verbose install     'typescript',
+6 verbose install     'vite'
+6 verbose install   ]
+6 verbose install ]
+7 verbose from cache C:\Users\eh.sadeghi\Desktop\my-app\package.json
+8 info preinstall my-app@0.0.1
+9 verbose from cache C:\Users\eh.sadeghi\Desktop\my-app\package.json
+10 verbose readDependencies using package.json deps
+11 verbose cache add [ '@neoconfetti/svelte@^1.0.0', null ]
+12 silly cache add name=undefined spec="@neoconfetti/svelte@^1.0.0" args=["@neoconfetti/svelte@^1.0.0",null]
+13 verbose parsed url Url {
+13 verbose parsed url   protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: '@neoconfetti/svelte@%5E1.0.0',
+13 verbose parsed url   path: '@neoconfetti/svelte@%5E1.0.0',
+13 verbose parsed url   href: '@neoconfetti/svelte@%5E1.0.0'
+13 verbose parsed url }
+14 silly cache add name="" spec="neoconfetti/svelte@^1.0.0" args=["","neoconfetti/svelte@^1.0.0"]
+15 verbose parsed url Url {
+15 verbose parsed url   protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'neoconfetti/svelte@%5E1.0.0',
+15 verbose parsed url   path: 'neoconfetti/svelte@%5E1.0.0',
+15 verbose parsed url   href: 'neoconfetti/svelte@%5E1.0.0'
+15 verbose parsed url }
+16 silly cache add name="neoconfetti/svelte" spec="^1.0.0" args=["neoconfetti/svelte","^1.0.0"]
+17 verbose parsed url Url {
+17 verbose parsed url   protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: '%5E1.0.0',
+17 verbose parsed url   path: '%5E1.0.0',
+17 verbose parsed url   href: '%5E1.0.0'
+17 verbose parsed url }
+18 verbose addNamed [ 'neoconfetti/svelte', '^1.0.0' ]
+19 verbose addNamed [ null, null ]
+20 verbose cache add [ '@playwright/test@1.25.0', null ]
+21 silly cache add name=undefined spec="@playwright/test@1.25.0" args=["@playwright/test@1.25.0",null]
+22 verbose parsed url Url {
+22 verbose parsed url   protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: '@playwright/test@1.25.0',
+22 verbose parsed url   path: '@playwright/test@1.25.0',
+22 verbose parsed url   href: '@playwright/test@1.25.0'
+22 verbose parsed url }
+23 silly cache add name="" spec="playwright/test@1.25.0" args=["","playwright/test@1.25.0"]
+24 verbose parsed url Url {
+24 verbose parsed url   protocol: null,
+24 verbose parsed url   slashes: null,
+24 verbose parsed url   auth: null,
+24 verbose parsed url   host: null,
+24 verbose parsed url   port: null,
+24 verbose parsed url   hostname: null,
+24 verbose parsed url   hash: null,
+24 verbose parsed url   search: null,
+24 verbose parsed url   query: null,
+24 verbose parsed url   pathname: 'playwright/test@1.25.0',
+24 verbose parsed url   path: 'playwright/test@1.25.0',
+24 verbose parsed url   href: 'playwright/test@1.25.0'
+24 verbose parsed url }
+25 silly cache add name="playwright/test" spec="1.25.0" args=["playwright/test","1.25.0"]
+26 verbose parsed url Url {
+26 verbose parsed url   protocol: null,
+26 verbose parsed url   slashes: null,
+26 verbose parsed url   auth: null,
+26 verbose parsed url   host: null,
+26 verbose parsed url   port: null,
+26 verbose parsed url   hostname: null,
+26 verbose parsed url   hash: null,
+26 verbose parsed url   search: null,
+26 verbose parsed url   query: null,
+26 verbose parsed url   pathname: '1.25.0',
+26 verbose parsed url   path: '1.25.0',
+26 verbose parsed url   href: '1.25.0'
+26 verbose parsed url }
+27 verbose addNamed [ 'playwright/test', '1.25.0' ]
+28 verbose addNamed [ '1.25.0', '1.25.0' ]
+29 verbose cache add [ '@sveltejs/adapter-auto@next', null ]
+30 silly cache add name=undefined spec="@sveltejs/adapter-auto@next" args=["@sveltejs/adapter-auto@next",null]
+31 verbose parsed url Url {
+31 verbose parsed url   protocol: null,
+31 verbose parsed url   slashes: null,
+31 verbose parsed url   auth: null,
+31 verbose parsed url   host: null,
+31 verbose parsed url   port: null,
+31 verbose parsed url   hostname: null,
+31 verbose parsed url   hash: null,
+31 verbose parsed url   search: null,
+31 verbose parsed url   query: null,
+31 verbose parsed url   pathname: '@sveltejs/adapter-auto@next',
+31 verbose parsed url   path: '@sveltejs/adapter-auto@next',
+31 verbose parsed url   href: '@sveltejs/adapter-auto@next'
+31 verbose parsed url }
+32 silly cache add name="" spec="sveltejs/adapter-auto@next" args=["","sveltejs/adapter-auto@next"]
+33 verbose parsed url Url {
+33 verbose parsed url   protocol: null,
+33 verbose parsed url   slashes: null,
+33 verbose parsed url   auth: null,
+33 verbose parsed url   host: null,
+33 verbose parsed url   port: null,
+33 verbose parsed url   hostname: null,
+33 verbose parsed url   hash: null,
+33 verbose parsed url   search: null,
+33 verbose parsed url   query: null,
+33 verbose parsed url   pathname: 'sveltejs/adapter-auto@next',
+33 verbose parsed url   path: 'sveltejs/adapter-auto@next',
+33 verbose parsed url   href: 'sveltejs/adapter-auto@next'
+33 verbose parsed url }
+34 silly cache add name="sveltejs/adapter-auto" spec="next" args=["sveltejs/adapter-auto","next"]
+35 verbose parsed url Url {
+35 verbose parsed url   protocol: null,
+35 verbose parsed url   slashes: null,
+35 verbose parsed url   auth: null,
+35 verbose parsed url   host: null,
+35 verbose parsed url   port: null,
+35 verbose parsed url   hostname: null,
+35 verbose parsed url   hash: null,
+35 verbose parsed url   search: null,
+35 verbose parsed url   query: null,
+35 verbose parsed url   pathname: 'next',
+35 verbose parsed url   path: 'next',
+35 verbose parsed url   href: 'next'
+35 verbose parsed url }
+36 verbose addNamed [ 'sveltejs/adapter-auto', 'next' ]
+37 verbose addNamed [ null, null ]
+38 verbose cache add [ '@sveltejs/kit@next', null ]
+39 silly cache add name=undefined spec="@sveltejs/kit@next" args=["@sveltejs/kit@next",null]
+40 verbose parsed url Url {
+40 verbose parsed url   protocol: null,
+40 verbose parsed url   slashes: null,
+40 verbose parsed url   auth: null,
+40 verbose parsed url   host: null,
+40 verbose parsed url   port: null,
+40 verbose parsed url   hostname: null,
+40 verbose parsed url   hash: null,
+40 verbose parsed url   search: null,
+40 verbose parsed url   query: null,
+40 verbose parsed url   pathname: '@sveltejs/kit@next',
+40 verbose parsed url   path: '@sveltejs/kit@next',
+40 verbose parsed url   href: '@sveltejs/kit@next'
+40 verbose parsed url }
+41 silly cache add name="" spec="sveltejs/kit@next" args=["","sveltejs/kit@next"]
+42 verbose parsed url Url {
+42 verbose parsed url   protocol: null,
+42 verbose parsed url   slashes: null,
+42 verbose parsed url   auth: null,
+42 verbose parsed url   host: null,
+42 verbose parsed url   port: null,
+42 verbose parsed url   hostname: null,
+42 verbose parsed url   hash: null,
+42 verbose parsed url   search: null,
+42 verbose parsed url   query: null,
+42 verbose parsed url   pathname: 'sveltejs/kit@next',
+42 verbose parsed url   path: 'sveltejs/kit@next',
+42 verbose parsed url   href: 'sveltejs/kit@next'
+42 verbose parsed url }
+43 silly cache add name="sveltejs/kit" spec="next" args=["sveltejs/kit","next"]
+44 verbose parsed url Url {
+44 verbose parsed url   protocol: null,
+44 verbose parsed url   slashes: null,
+44 verbose parsed url   auth: null,
+44 verbose parsed url   host: null,
+44 verbose parsed url   port: null,
+44 verbose parsed url   hostname: null,
+44 verbose parsed url   hash: null,
+44 verbose parsed url   search: null,
+44 verbose parsed url   query: null,
+44 verbose parsed url   pathname: 'next',
+44 verbose parsed url   path: 'next',
+44 verbose parsed url   href: 'next'
+44 verbose parsed url }
+45 verbose addNamed [ 'sveltejs/kit', 'next' ]
+46 verbose addNamed [ null, null ]
+47 verbose cache add [ '@types/cookie@^0.5.1', null ]
+48 silly cache add name=undefined spec="@types/cookie@^0.5.1" args=["@types/cookie@^0.5.1",null]
+49 verbose parsed url Url {
+49 verbose parsed url   protocol: null,
+49 verbose parsed url   slashes: null,
+49 verbose parsed url   auth: null,
+49 verbose parsed url   host: null,
+49 verbose parsed url   port: null,
+49 verbose parsed url   hostname: null,
+49 verbose parsed url   hash: null,
+49 verbose parsed url   search: null,
+49 verbose parsed url   query: null,
+49 verbose parsed url   pathname: '@types/cookie@%5E0.5.1',
+49 verbose parsed url   path: '@types/cookie@%5E0.5.1',
+49 verbose parsed url   href: '@types/cookie@%5E0.5.1'
+49 verbose parsed url }
+50 silly cache add name="" spec="types/cookie@^0.5.1" args=["","types/cookie@^0.5.1"]
+51 verbose parsed url Url {
+51 verbose parsed url   protocol: null,
+51 verbose parsed url   slashes: null,
+51 verbose parsed url   auth: null,
+51 verbose parsed url   host: null,
+51 verbose parsed url   port: null,
+51 verbose parsed url   hostname: null,
+51 verbose parsed url   hash: null,
+51 verbose parsed url   search: null,
+51 verbose parsed url   query: null,
+51 verbose parsed url   pathname: 'types/cookie@%5E0.5.1',
+51 verbose parsed url   path: 'types/cookie@%5E0.5.1',
+51 verbose parsed url   href: 'types/cookie@%5E0.5.1'
+51 verbose parsed url }
+52 silly cache add name="types/cookie" spec="^0.5.1" args=["types/cookie","^0.5.1"]
+53 verbose parsed url Url {
+53 verbose parsed url   protocol: null,
+53 verbose parsed url   slashes: null,
+53 verbose parsed url   auth: null,
+53 verbose parsed url   host: null,
+53 verbose parsed url   port: null,
+53 verbose parsed url   hostname: null,
+53 verbose parsed url   hash: null,
+53 verbose parsed url   search: null,
+53 verbose parsed url   query: null,
+53 verbose parsed url   pathname: '%5E0.5.1',
+53 verbose parsed url   path: '%5E0.5.1',
+53 verbose parsed url   href: '%5E0.5.1'
+53 verbose parsed url }
+54 verbose addNamed [ 'types/cookie', '^0.5.1' ]
+55 verbose addNamed [ null, null ]
+56 verbose cache add [ '@typescript-eslint/eslint-plugin@^5.27.0', null ]
+57 silly cache add name=undefined spec="@typescript-eslint/eslint-plugin@^5.27.0" args=["@typescript-eslint/eslint-plugin@^5.27.0",null]
+58 verbose parsed url Url {
+58 verbose parsed url   protocol: null,
+58 verbose parsed url   slashes: null,
+58 verbose parsed url   auth: null,
+58 verbose parsed url   host: null,
+58 verbose parsed url   port: null,
+58 verbose parsed url   hostname: null,
+58 verbose parsed url   hash: null,
+58 verbose parsed url   search: null,
+58 verbose parsed url   query: null,
+58 verbose parsed url   pathname: '@typescript-eslint/eslint-plugin@%5E5.27.0',
+58 verbose parsed url   path: '@typescript-eslint/eslint-plugin@%5E5.27.0',
+58 verbose parsed url   href: '@typescript-eslint/eslint-plugin@%5E5.27.0'
+58 verbose parsed url }
+59 silly cache add name="" spec="typescript-eslint/eslint-plugin@^5.27.0" args=["","typescript-eslint/eslint-plugin@^5.27.0"]
+60 verbose parsed url Url {
+60 verbose parsed url   protocol: null,
+60 verbose parsed url   slashes: null,
+60 verbose parsed url   auth: null,
+60 verbose parsed url   host: null,
+60 verbose parsed url   port: null,
+60 verbose parsed url   hostname: null,
+60 verbose parsed url   hash: null,
+60 verbose parsed url   search: null,
+60 verbose parsed url   query: null,
+60 verbose parsed url   pathname: 'typescript-eslint/eslint-plugin@%5E5.27.0',
+60 verbose parsed url   path: 'typescript-eslint/eslint-plugin@%5E5.27.0',
+60 verbose parsed url   href: 'typescript-eslint/eslint-plugin@%5E5.27.0'
+60 verbose parsed url }
+61 silly cache add name="typescript-eslint/eslint-plugin" spec="^5.27.0" args=["typescript-eslint/eslint-plugin","^5.27.0"]
+62 verbose parsed url Url {
+62 verbose parsed url   protocol: null,
+62 verbose parsed url   slashes: null,
+62 verbose parsed url   auth: null,
+62 verbose parsed url   host: null,
+62 verbose parsed url   port: null,
+62 verbose parsed url   hostname: null,
+62 verbose parsed url   hash: null,
+62 verbose parsed url   search: null,
+62 verbose parsed url   query: null,
+62 verbose parsed url   pathname: '%5E5.27.0',
+62 verbose parsed url   path: '%5E5.27.0',
+62 verbose parsed url   href: '%5E5.27.0'
+62 verbose parsed url }
+63 verbose addNamed [ 'typescript-eslint/eslint-plugin', '^5.27.0' ]
+64 verbose addNamed [ null, null ]
+65 verbose cache add [ '@typescript-eslint/parser@^5.27.0', null ]
+66 silly cache add name=undefined spec="@typescript-eslint/parser@^5.27.0" args=["@typescript-eslint/parser@^5.27.0",null]
+67 verbose parsed url Url {
+67 verbose parsed url   protocol: null,
+67 verbose parsed url   slashes: null,
+67 verbose parsed url   auth: null,
+67 verbose parsed url   host: null,
+67 verbose parsed url   port: null,
+67 verbose parsed url   hostname: null,
+67 verbose parsed url   hash: null,
+67 verbose parsed url   search: null,
+67 verbose parsed url   query: null,
+67 verbose parsed url   pathname: '@typescript-eslint/parser@%5E5.27.0',
+67 verbose parsed url   path: '@typescript-eslint/parser@%5E5.27.0',
+67 verbose parsed url   href: '@typescript-eslint/parser@%5E5.27.0'
+67 verbose parsed url }
+68 silly cache add name="" spec="typescript-eslint/parser@^5.27.0" args=["","typescript-eslint/parser@^5.27.0"]
+69 verbose parsed url Url {
+69 verbose parsed url   protocol: null,
+69 verbose parsed url   slashes: null,
+69 verbose parsed url   auth: null,
+69 verbose parsed url   host: null,
+69 verbose parsed url   port: null,
+69 verbose parsed url   hostname: null,
+69 verbose parsed url   hash: null,
+69 verbose parsed url   search: null,
+69 verbose parsed url   query: null,
+69 verbose parsed url   pathname: 'typescript-eslint/parser@%5E5.27.0',
+69 verbose parsed url   path: 'typescript-eslint/parser@%5E5.27.0',
+69 verbose parsed url   href: 'typescript-eslint/parser@%5E5.27.0'
+69 verbose parsed url }
+70 silly cache add name="typescript-eslint/parser" spec="^5.27.0" args=["typescript-eslint/parser","^5.27.0"]
+71 verbose parsed url Url {
+71 verbose parsed url   protocol: null,
+71 verbose parsed url   slashes: null,
+71 verbose parsed url   auth: null,
+71 verbose parsed url   host: null,
+71 verbose parsed url   port: null,
+71 verbose parsed url   hostname: null,
+71 verbose parsed url   hash: null,
+71 verbose parsed url   search: null,
+71 verbose parsed url   query: null,
+71 verbose parsed url   pathname: '%5E5.27.0',
+71 verbose parsed url   path: '%5E5.27.0',
+71 verbose parsed url   href: '%5E5.27.0'
+71 verbose parsed url }
+72 verbose addNamed [ 'typescript-eslint/parser', '^5.27.0' ]
+73 verbose addNamed [ null, null ]
+74 verbose cache add [ 'eslint@^8.16.0', null ]
+75 silly cache add name=undefined spec="eslint@^8.16.0" args=["eslint@^8.16.0",null]
+76 verbose parsed url Url {
+76 verbose parsed url   protocol: null,
+76 verbose parsed url   slashes: null,
+76 verbose parsed url   auth: null,
+76 verbose parsed url   host: null,
+76 verbose parsed url   port: null,
+76 verbose parsed url   hostname: null,
+76 verbose parsed url   hash: null,
+76 verbose parsed url   search: null,
+76 verbose parsed url   query: null,
+76 verbose parsed url   pathname: 'eslint@%5E8.16.0',
+76 verbose parsed url   path: 'eslint@%5E8.16.0',
+76 verbose parsed url   href: 'eslint@%5E8.16.0'
+76 verbose parsed url }
+77 silly cache add name="eslint" spec="^8.16.0" args=["eslint","^8.16.0"]
+78 verbose parsed url Url {
+78 verbose parsed url   protocol: null,
+78 verbose parsed url   slashes: null,
+78 verbose parsed url   auth: null,
+78 verbose parsed url   host: null,
+78 verbose parsed url   port: null,
+78 verbose parsed url   hostname: null,
+78 verbose parsed url   hash: null,
+78 verbose parsed url   search: null,
+78 verbose parsed url   query: null,
+78 verbose parsed url   pathname: '%5E8.16.0',
+78 verbose parsed url   path: '%5E8.16.0',
+78 verbose parsed url   href: '%5E8.16.0'
+78 verbose parsed url }
+79 verbose addNamed [ 'eslint', '^8.16.0' ]
+80 verbose addNamed [ null, null ]
+81 verbose cache add [ 'eslint-config-prettier@^8.3.0', null ]
+82 silly cache add name=undefined spec="eslint-config-prettier@^8.3.0" args=["eslint-config-prettier@^8.3.0",null]
+83 verbose parsed url Url {
+83 verbose parsed url   protocol: null,
+83 verbose parsed url   slashes: null,
+83 verbose parsed url   auth: null,
+83 verbose parsed url   host: null,
+83 verbose parsed url   port: null,
+83 verbose parsed url   hostname: null,
+83 verbose parsed url   hash: null,
+83 verbose parsed url   search: null,
+83 verbose parsed url   query: null,
+83 verbose parsed url   pathname: 'eslint-config-prettier@%5E8.3.0',
+83 verbose parsed url   path: 'eslint-config-prettier@%5E8.3.0',
+83 verbose parsed url   href: 'eslint-config-prettier@%5E8.3.0'
+83 verbose parsed url }
+84 silly cache add name="eslint-config-prettier" spec="^8.3.0" args=["eslint-config-prettier","^8.3.0"]
+85 verbose parsed url Url {
+85 verbose parsed url   protocol: null,
+85 verbose parsed url   slashes: null,
+85 verbose parsed url   auth: null,
+85 verbose parsed url   host: null,
+85 verbose parsed url   port: null,
+85 verbose parsed url   hostname: null,
+85 verbose parsed url   hash: null,
+85 verbose parsed url   search: null,
+85 verbose parsed url   query: null,
+85 verbose parsed url   pathname: '%5E8.3.0',
+85 verbose parsed url   path: '%5E8.3.0',
+85 verbose parsed url   href: '%5E8.3.0'
+85 verbose parsed url }
+86 verbose addNamed [ 'eslint-config-prettier', '^8.3.0' ]
+87 verbose addNamed [ null, null ]
+88 verbose cache add [ 'eslint-plugin-svelte3@^4.0.0', null ]
+89 silly cache add name=undefined spec="eslint-plugin-svelte3@^4.0.0" args=["eslint-plugin-svelte3@^4.0.0",null]
+90 verbose parsed url Url {
+90 verbose parsed url   protocol: null,
+90 verbose parsed url   slashes: null,
+90 verbose parsed url   auth: null,
+90 verbose parsed url   host: null,
+90 verbose parsed url   port: null,
+90 verbose parsed url   hostname: null,
+90 verbose parsed url   hash: null,
+90 verbose parsed url   search: null,
+90 verbose parsed url   query: null,
+90 verbose parsed url   pathname: 'eslint-plugin-svelte3@%5E4.0.0',
+90 verbose parsed url   path: 'eslint-plugin-svelte3@%5E4.0.0',
+90 verbose parsed url   href: 'eslint-plugin-svelte3@%5E4.0.0'
+90 verbose parsed url }
+91 silly cache add name="eslint-plugin-svelte3" spec="^4.0.0" args=["eslint-plugin-svelte3","^4.0.0"]
+92 verbose parsed url Url {
+92 verbose parsed url   protocol: null,
+92 verbose parsed url   slashes: null,
+92 verbose parsed url   auth: null,
+92 verbose parsed url   host: null,
+92 verbose parsed url   port: null,
+92 verbose parsed url   hostname: null,
+92 verbose parsed url   hash: null,
+92 verbose parsed url   search: null,
+92 verbose parsed url   query: null,
+92 verbose parsed url   pathname: '%5E4.0.0',
+92 verbose parsed url   path: '%5E4.0.0',
+92 verbose parsed url   href: '%5E4.0.0'
+92 verbose parsed url }
+93 verbose addNamed [ 'eslint-plugin-svelte3', '^4.0.0' ]
+94 verbose addNamed [ null, null ]
+95 verbose cache add [ 'prettier@^2.6.2', null ]
+96 silly cache add name=undefined spec="prettier@^2.6.2" args=["prettier@^2.6.2",null]
+97 verbose parsed url Url {
+97 verbose parsed url   protocol: null,
+97 verbose parsed url   slashes: null,
+97 verbose parsed url   auth: null,
+97 verbose parsed url   host: null,
+97 verbose parsed url   port: null,
+97 verbose parsed url   hostname: null,
+97 verbose parsed url   hash: null,
+97 verbose parsed url   search: null,
+97 verbose parsed url   query: null,
+97 verbose parsed url   pathname: 'prettier@%5E2.6.2',
+97 verbose parsed url   path: 'prettier@%5E2.6.2',
+97 verbose parsed url   href: 'prettier@%5E2.6.2'
+97 verbose parsed url }
+98 silly cache add name="prettier" spec="^2.6.2" args=["prettier","^2.6.2"]
+99 verbose parsed url Url {
+99 verbose parsed url   protocol: null,
+99 verbose parsed url   slashes: null,
+99 verbose parsed url   auth: null,
+99 verbose parsed url   host: null,
+99 verbose parsed url   port: null,
+99 verbose parsed url   hostname: null,
+99 verbose parsed url   hash: null,
+99 verbose parsed url   search: null,
+99 verbose parsed url   query: null,
+99 verbose parsed url   pathname: '%5E2.6.2',
+99 verbose parsed url   path: '%5E2.6.2',
+99 verbose parsed url   href: '%5E2.6.2'
+99 verbose parsed url }
+100 verbose addNamed [ 'prettier', '^2.6.2' ]
+101 verbose addNamed [ null, null ]
+102 verbose cache add [ 'prettier-plugin-svelte@^2.7.0', null ]
+103 silly cache add name=undefined spec="prettier-plugin-svelte@^2.7.0" args=["prettier-plugin-svelte@^2.7.0",null]
+104 verbose parsed url Url {
+104 verbose parsed url   protocol: null,
+104 verbose parsed url   slashes: null,
+104 verbose parsed url   auth: null,
+104 verbose parsed url   host: null,
+104 verbose parsed url   port: null,
+104 verbose parsed url   hostname: null,
+104 verbose parsed url   hash: null,
+104 verbose parsed url   search: null,
+104 verbose parsed url   query: null,
+104 verbose parsed url   pathname: 'prettier-plugin-svelte@%5E2.7.0',
+104 verbose parsed url   path: 'prettier-plugin-svelte@%5E2.7.0',
+104 verbose parsed url   href: 'prettier-plugin-svelte@%5E2.7.0'
+104 verbose parsed url }
+105 silly cache add name="prettier-plugin-svelte" spec="^2.7.0" args=["prettier-plugin-svelte","^2.7.0"]
+106 verbose parsed url Url {
+106 verbose parsed url   protocol: null,
+106 verbose parsed url   slashes: null,
+106 verbose parsed url   auth: null,
+106 verbose parsed url   host: null,
+106 verbose parsed url   port: null,
+106 verbose parsed url   hostname: null,
+106 verbose parsed url   hash: null,
+106 verbose parsed url   search: null,
+106 verbose parsed url   query: null,
+106 verbose parsed url   pathname: '%5E2.7.0',
+106 verbose parsed url   path: '%5E2.7.0',
+106 verbose parsed url   href: '%5E2.7.0'
+106 verbose parsed url }
+107 verbose addNamed [ 'prettier-plugin-svelte', '^2.7.0' ]
+108 verbose addNamed [ null, null ]
+109 verbose cache add [ 'svelte@^3.46.0', null ]
+110 silly cache add name=undefined spec="svelte@^3.46.0" args=["svelte@^3.46.0",null]
+111 verbose parsed url Url {
+111 verbose parsed url   protocol: null,
+111 verbose parsed url   slashes: null,
+111 verbose parsed url   auth: null,
+111 verbose parsed url   host: null,
+111 verbose parsed url   port: null,
+111 verbose parsed url   hostname: null,
+111 verbose parsed url   hash: null,
+111 verbose parsed url   search: null,
+111 verbose parsed url   query: null,
+111 verbose parsed url   pathname: 'svelte@%5E3.46.0',
+111 verbose parsed url   path: 'svelte@%5E3.46.0',
+111 verbose parsed url   href: 'svelte@%5E3.46.0'
+111 verbose parsed url }
+112 silly cache add name="svelte" spec="^3.46.0" args=["svelte","^3.46.0"]
+113 verbose parsed url Url {
+113 verbose parsed url   protocol: null,
+113 verbose parsed url   slashes: null,
+113 verbose parsed url   auth: null,
+113 verbose parsed url   host: null,
+113 verbose parsed url   port: null,
+113 verbose parsed url   hostname: null,
+113 verbose parsed url   hash: null,
+113 verbose parsed url   search: null,
+113 verbose parsed url   query: null,
+113 verbose parsed url   pathname: '%5E3.46.0',
+113 verbose parsed url   path: '%5E3.46.0',
+113 verbose parsed url   href: '%5E3.46.0'
+113 verbose parsed url }
+114 verbose addNamed [ 'svelte', '^3.46.0' ]
+115 verbose addNamed [ null, null ]
+116 verbose cache add [ 'svelte-check@^2.7.1', null ]
+117 silly cache add name=undefined spec="svelte-check@^2.7.1" args=["svelte-check@^2.7.1",null]
+118 verbose parsed url Url {
+118 verbose parsed url   protocol: null,
+118 verbose parsed url   slashes: null,
+118 verbose parsed url   auth: null,
+118 verbose parsed url   host: null,
+118 verbose parsed url   port: null,
+118 verbose parsed url   hostname: null,
+118 verbose parsed url   hash: null,
+118 verbose parsed url   search: null,
+118 verbose parsed url   query: null,
+118 verbose parsed url   pathname: 'svelte-check@%5E2.7.1',
+118 verbose parsed url   path: 'svelte-check@%5E2.7.1',
+118 verbose parsed url   href: 'svelte-check@%5E2.7.1'
+118 verbose parsed url }
+119 silly cache add name="svelte-check" spec="^2.7.1" args=["svelte-check","^2.7.1"]
+120 verbose parsed url Url {
+120 verbose parsed url   protocol: null,
+120 verbose parsed url   slashes: null,
+120 verbose parsed url   auth: null,
+120 verbose parsed url   host: null,
+120 verbose parsed url   port: null,
+120 verbose parsed url   hostname: null,
+120 verbose parsed url   hash: null,
+120 verbose parsed url   search: null,
+120 verbose parsed url   query: null,
+120 verbose parsed url   pathname: '%5E2.7.1',
+120 verbose parsed url   path: '%5E2.7.1',
+120 verbose parsed url   href: '%5E2.7.1'
+120 verbose parsed url }
+121 verbose addNamed [ 'svelte-check', '^2.7.1' ]
+122 verbose addNamed [ null, null ]
+123 verbose cache add [ 'svelte-preprocess@^4.10.6', null ]
+124 silly cache add name=undefined spec="svelte-preprocess@^4.10.6" args=["svelte-preprocess@^4.10.6",null]
+125 verbose parsed url Url {
+125 verbose parsed url   protocol: null,
+125 verbose parsed url   slashes: null,
+125 verbose parsed url   auth: null,
+125 verbose parsed url   host: null,
+125 verbose parsed url   port: null,
+125 verbose parsed url   hostname: null,
+125 verbose parsed url   hash: null,
+125 verbose parsed url   search: null,
+125 verbose parsed url   query: null,
+125 verbose parsed url   pathname: 'svelte-preprocess@%5E4.10.6',
+125 verbose parsed url   path: 'svelte-preprocess@%5E4.10.6',
+125 verbose parsed url   href: 'svelte-preprocess@%5E4.10.6'
+125 verbose parsed url }
+126 silly cache add name="svelte-preprocess" spec="^4.10.6" args=["svelte-preprocess","^4.10.6"]
+127 verbose parsed url Url {
+127 verbose parsed url   protocol: null,
+127 verbose parsed url   slashes: null,
+127 verbose parsed url   auth: null,
+127 verbose parsed url   host: null,
+127 verbose parsed url   port: null,
+127 verbose parsed url   hostname: null,
+127 verbose parsed url   hash: null,
+127 verbose parsed url   search: null,
+127 verbose parsed url   query: null,
+127 verbose parsed url   pathname: '%5E4.10.6',
+127 verbose parsed url   path: '%5E4.10.6',
+127 verbose parsed url   href: '%5E4.10.6'
+127 verbose parsed url }
+128 verbose addNamed [ 'svelte-preprocess', '^4.10.6' ]
+129 verbose addNamed [ null, null ]
+130 verbose cache add [ 'tslib@^2.3.1', null ]
+131 silly cache add name=undefined spec="tslib@^2.3.1" args=["tslib@^2.3.1",null]
+132 verbose parsed url Url {
+132 verbose parsed url   protocol: null,
+132 verbose parsed url   slashes: null,
+132 verbose parsed url   auth: null,
+132 verbose parsed url   host: null,
+132 verbose parsed url   port: null,
+132 verbose parsed url   hostname: null,
+132 verbose parsed url   hash: null,
+132 verbose parsed url   search: null,
+132 verbose parsed url   query: null,
+132 verbose parsed url   pathname: 'tslib@%5E2.3.1',
+132 verbose parsed url   path: 'tslib@%5E2.3.1',
+132 verbose parsed url   href: 'tslib@%5E2.3.1'
+132 verbose parsed url }
+133 silly cache add name="tslib" spec="^2.3.1" args=["tslib","^2.3.1"]
+134 verbose parsed url Url {
+134 verbose parsed url   protocol: null,
+134 verbose parsed url   slashes: null,
+134 verbose parsed url   auth: null,
+134 verbose parsed url   host: null,
+134 verbose parsed url   port: null,
+134 verbose parsed url   hostname: null,
+134 verbose parsed url   hash: null,
+134 verbose parsed url   search: null,
+134 verbose parsed url   query: null,
+134 verbose parsed url   pathname: '%5E2.3.1',
+134 verbose parsed url   path: '%5E2.3.1',
+134 verbose parsed url   href: '%5E2.3.1'
+134 verbose parsed url }
+135 verbose addNamed [ 'tslib', '^2.3.1' ]
+136 verbose addNamed [ null, null ]
+137 verbose cache add [ 'typescript@^4.7.4', null ]
+138 silly cache add name=undefined spec="typescript@^4.7.4" args=["typescript@^4.7.4",null]
+139 verbose parsed url Url {
+139 verbose parsed url   protocol: null,
+139 verbose parsed url   slashes: null,
+139 verbose parsed url   auth: null,
+139 verbose parsed url   host: null,
+139 verbose parsed url   port: null,
+139 verbose parsed url   hostname: null,
+139 verbose parsed url   hash: null,
+139 verbose parsed url   search: null,
+139 verbose parsed url   query: null,
+139 verbose parsed url   pathname: 'typescript@%5E4.7.4',
+139 verbose parsed url   path: 'typescript@%5E4.7.4',
+139 verbose parsed url   href: 'typescript@%5E4.7.4'
+139 verbose parsed url }
+140 silly cache add name="typescript" spec="^4.7.4" args=["typescript","^4.7.4"]
+141 verbose parsed url Url {
+141 verbose parsed url   protocol: null,
+141 verbose parsed url   slashes: null,
+141 verbose parsed url   auth: null,
+141 verbose parsed url   host: null,
+141 verbose parsed url   port: null,
+141 verbose parsed url   hostname: null,
+141 verbose parsed url   hash: null,
+141 verbose parsed url   search: null,
+141 verbose parsed url   query: null,
+141 verbose parsed url   pathname: '%5E4.7.4',
+141 verbose parsed url   path: '%5E4.7.4',
+141 verbose parsed url   href: '%5E4.7.4'
+141 verbose parsed url }
+142 verbose addNamed [ 'typescript', '^4.7.4' ]
+143 verbose addNamed [ null, null ]
+144 verbose cache add [ 'vite@^3.1.0', null ]
+145 silly cache add name=undefined spec="vite@^3.1.0" args=["vite@^3.1.0",null]
+146 verbose parsed url Url {
+146 verbose parsed url   protocol: null,
+146 verbose parsed url   slashes: null,
+146 verbose parsed url   auth: null,
+146 verbose parsed url   host: null,
+146 verbose parsed url   port: null,
+146 verbose parsed url   hostname: null,
+146 verbose parsed url   hash: null,
+146 verbose parsed url   search: null,
+146 verbose parsed url   query: null,
+146 verbose parsed url   pathname: 'vite@%5E3.1.0',
+146 verbose parsed url   path: 'vite@%5E3.1.0',
+146 verbose parsed url   href: 'vite@%5E3.1.0'
+146 verbose parsed url }
+147 silly cache add name="vite" spec="^3.1.0" args=["vite","^3.1.0"]
+148 verbose parsed url Url {
+148 verbose parsed url   protocol: null,
+148 verbose parsed url   slashes: null,
+148 verbose parsed url   auth: null,
+148 verbose parsed url   host: null,
+148 verbose parsed url   port: null,
+148 verbose parsed url   hostname: null,
+148 verbose parsed url   hash: null,
+148 verbose parsed url   search: null,
+148 verbose parsed url   query: null,
+148 verbose parsed url   pathname: '%5E3.1.0',
+148 verbose parsed url   path: '%5E3.1.0',
+148 verbose parsed url   href: '%5E3.1.0'
+148 verbose parsed url }
+149 verbose addNamed [ 'vite', '^3.1.0' ]
+150 verbose addNamed [ null, null ]
+151 verbose cache add [ '@fontsource/fira-mono@^4.5.0', null ]
+152 silly cache add name=undefined spec="@fontsource/fira-mono@^4.5.0" args=["@fontsource/fira-mono@^4.5.0",null]
+153 verbose parsed url Url {
+153 verbose parsed url   protocol: null,
+153 verbose parsed url   slashes: null,
+153 verbose parsed url   auth: null,
+153 verbose parsed url   host: null,
+153 verbose parsed url   port: null,
+153 verbose parsed url   hostname: null,
+153 verbose parsed url   hash: null,
+153 verbose parsed url   search: null,
+153 verbose parsed url   query: null,
+153 verbose parsed url   pathname: '@fontsource/fira-mono@%5E4.5.0',
+153 verbose parsed url   path: '@fontsource/fira-mono@%5E4.5.0',
+153 verbose parsed url   href: '@fontsource/fira-mono@%5E4.5.0'
+153 verbose parsed url }
+154 silly cache add name="" spec="fontsource/fira-mono@^4.5.0" args=["","fontsource/fira-mono@^4.5.0"]
+155 verbose parsed url Url {
+155 verbose parsed url   protocol: null,
+155 verbose parsed url   slashes: null,
+155 verbose parsed url   auth: null,
+155 verbose parsed url   host: null,
+155 verbose parsed url   port: null,
+155 verbose parsed url   hostname: null,
+155 verbose parsed url   hash: null,
+155 verbose parsed url   search: null,
+155 verbose parsed url   query: null,
+155 verbose parsed url   pathname: 'fontsource/fira-mono@%5E4.5.0',
+155 verbose parsed url   path: 'fontsource/fira-mono@%5E4.5.0',
+155 verbose parsed url   href: 'fontsource/fira-mono@%5E4.5.0'
+155 verbose parsed url }
+156 silly cache add name="fontsource/fira-mono" spec="^4.5.0" args=["fontsource/fira-mono","^4.5.0"]
+157 verbose parsed url Url {
+157 verbose parsed url   protocol: null,
+157 verbose parsed url   slashes: null,
+157 verbose parsed url   auth: null,
+157 verbose parsed url   host: null,
+157 verbose parsed url   port: null,
+157 verbose parsed url   hostname: null,
+157 verbose parsed url   hash: null,
+157 verbose parsed url   search: null,
+157 verbose parsed url   query: null,
+157 verbose parsed url   pathname: '%5E4.5.0',
+157 verbose parsed url   path: '%5E4.5.0',
+157 verbose parsed url   href: '%5E4.5.0'
+157 verbose parsed url }
+158 verbose addNamed [ 'fontsource/fira-mono', '^4.5.0' ]
+159 verbose addNamed [ null, null ]
+160 silly lockFile e1a193a1-playwright-test-1-25-0 playwright/test@1.25.0
+161 verbose lock playwright/test@1.25.0 C:\Users\eh.sadeghi\AppData\Roaming\npm-cache\e1a193a1-playwright-test-1-25-0.lock
+162 silly lockFile f288685a-neoconfetti-svelte-1-0-0 neoconfetti/svelte@^1.0.0
+163 verbose lock neoconfetti/svelte@^1.0.0 C:\Users\eh.sadeghi\AppData\Roaming\npm-cache\f288685a-neoconfetti-svelte-1-0-0.lock
+164 silly lockFile a86a3119-sveltejs-adapter-auto-next sveltejs/adapter-auto@next
+165 verbose lock sveltejs/adapter-auto@next C:\Users\eh.sadeghi\AppData\Roaming\npm-cache\a86a3119-sveltejs-adapter-auto-next.lock
+166 silly lockFile 8a6442a9-sveltejs-kit-next sveltejs/kit@next
+167 verbose lock sveltejs/kit@next C:\Users\eh.sadeghi\AppData\Roaming\npm-cache\8a6442a9-sveltejs-kit-next.lock
+168 silly lockFile 3e941e6d-types-cookie-0-5-1 types/cookie@^0.5.1
+169 verbose lock types/cookie@^0.5.1 C:\Users\eh.sadeghi\AppData\Roaming\npm-cache\3e941e6d-types-cookie-0-5-1.lock
+170 silly lockFile 900bc227-ript-eslint-eslint-plugin-5-27-0 typescript-eslint/eslint-plugin@^5.27.0
+171 verbose lock typescript-eslint/eslint-plugin@^5.27.0 C:\Users\eh.sadeghi\AppData\Roaming\npm-cache\900bc227-ript-eslint-eslint-plugin-5-27-0.lock
+172 silly lockFile 6109830e-typescript-eslint-parser-5-27-0 typescript-eslint/parser@^5.27.0
+173 verbose lock typescript-eslint/parser@^5.27.0 C:\Users\eh.sadeghi\AppData\Roaming\npm-cache\6109830e-typescript-eslint-parser-5-27-0.lock
+174 silly lockFile b5b061ac-eslint-8-16-0 eslint@^8.16.0
+175 verbose lock eslint@^8.16.0 C:\Users\eh.sadeghi\AppData\Roaming\npm-cache\b5b061ac-eslint-8-16-0.lock
+176 silly lockFile ae6ea541-eslint-config-prettier-8-3-0 eslint-config-prettier@^8.3.0
+177 verbose lock eslint-config-prettier@^8.3.0 C:\Users\eh.sadeghi\AppData\Roaming\npm-cache\ae6ea541-eslint-config-prettier-8-3-0.lock
+178 silly lockFile b9a363a6-eslint-plugin-svelte3-4-0-0 eslint-plugin-svelte3@^4.0.0
+179 verbose lock eslint-plugin-svelte3@^4.0.0 C:\Users\eh.sadeghi\AppData\Roaming\npm-cache\b9a363a6-eslint-plugin-svelte3-4-0-0.lock
+180 silly lockFile a9526d9a-prettier-2-6-2 prettier@^2.6.2
+181 verbose lock prettier@^2.6.2 C:\Users\eh.sadeghi\AppData\Roaming\npm-cache\a9526d9a-prettier-2-6-2.lock
+182 silly lockFile 524d6efd-prettier-plugin-svelte-2-7-0 prettier-plugin-svelte@^2.7.0
+183 verbose lock prettier-plugin-svelte@^2.7.0 C:\Users\eh.sadeghi\AppData\Roaming\npm-cache\524d6efd-prettier-plugin-svelte-2-7-0.lock
+184 silly lockFile 62e7ae9e-svelte-3-46-0 svelte@^3.46.0
+185 verbose lock svelte@^3.46.0 C:\Users\eh.sadeghi\AppData\Roaming\npm-cache\62e7ae9e-svelte-3-46-0.lock
+186 silly lockFile 758f8101-svelte-check-2-7-1 svelte-check@^2.7.1
+187 verbose lock svelte-check@^2.7.1 C:\Users\eh.sadeghi\AppData\Roaming\npm-cache\758f8101-svelte-check-2-7-1.lock
+188 silly lockFile 41c835c1-svelte-preprocess-4-10-6 svelte-preprocess@^4.10.6
+189 verbose lock svelte-preprocess@^4.10.6 C:\Users\eh.sadeghi\AppData\Roaming\npm-cache\41c835c1-svelte-preprocess-4-10-6.lock
+190 silly lockFile c36bdf1f-tslib-2-3-1 tslib@^2.3.1
+191 verbose lock tslib@^2.3.1 C:\Users\eh.sadeghi\AppData\Roaming\npm-cache\c36bdf1f-tslib-2-3-1.lock
+192 silly lockFile 7ef78228-typescript-4-7-4 typescript@^4.7.4
+193 verbose lock typescript@^4.7.4 C:\Users\eh.sadeghi\AppData\Roaming\npm-cache\7ef78228-typescript-4-7-4.lock
+194 silly lockFile 5507f88c-fontsource-fira-mono-4-5-0 fontsource/fira-mono@^4.5.0
+195 verbose lock fontsource/fira-mono@^4.5.0 C:\Users\eh.sadeghi\AppData\Roaming\npm-cache\5507f88c-fontsource-fira-mono-4-5-0.lock
+196 silly lockFile 18db99ae-vite-3-1-0 vite@^3.1.0
+197 verbose lock vite@^3.1.0 C:\Users\eh.sadeghi\AppData\Roaming\npm-cache\18db99ae-vite-3-1-0.lock
+198 info addNameTag [ 'neoconfetti/svelte', '^1.0.0' ]
+199 info addNameTag [ 'sveltejs/adapter-auto', 'next' ]
+200 info addNameTag [ 'types/cookie', '^0.5.1' ]
+201 info addNameTag [ 'typescript-eslint/eslint-plugin', '^5.27.0' ]
+202 info addNameTag [ 'sveltejs/kit', 'next' ]
+203 info addNameTag [ 'typescript-eslint/parser', '^5.27.0' ]
+204 info addNameTag [ 'eslint-config-prettier', '^8.3.0' ]
+205 info addNameTag [ 'eslint', '^8.16.0' ]
+206 info addNameTag [ 'eslint-plugin-svelte3', '^4.0.0' ]
+207 info addNameTag [ 'prettier-plugin-svelte', '^2.7.0' ]
+208 info addNameTag [ 'prettier', '^2.6.2' ]
+209 info addNameTag [ 'svelte', '^3.46.0' ]
+210 info addNameTag [ 'svelte-check', '^2.7.1' ]
+211 info addNameTag [ 'svelte-preprocess', '^4.10.6' ]
+212 info addNameTag [ 'tslib', '^2.3.1' ]
+213 verbose url raw playwright/test/1.25.0
+214 verbose url resolving [ 'https://registry.npmjs.org/', './playwright/test/1.25.0' ]
+215 verbose url resolved https://registry.npmjs.org/playwright/test/1.25.0
+216 info trying registry request attempt 1 at 11:24:10 AM
+217 http GET https://registry.npmjs.org/playwright/test/1.25.0
+218 info addNameTag [ 'typescript', '^4.7.4' ]
+219 verbose url raw sveltejs/adapter-auto
+220 verbose url resolving [ 'https://registry.npmjs.org/', './sveltejs/adapter-auto' ]
+221 verbose url resolved https://registry.npmjs.org/sveltejs/adapter-auto
+222 info trying registry request attempt 1 at 11:24:10 AM
+223 http GET https://registry.npmjs.org/sveltejs/adapter-auto
+224 verbose url raw neoconfetti/svelte
+225 verbose url resolving [ 'https://registry.npmjs.org/', './neoconfetti/svelte' ]
+226 verbose url resolved https://registry.npmjs.org/neoconfetti/svelte
+227 info trying registry request attempt 1 at 11:24:10 AM
+228 http GET https://registry.npmjs.org/neoconfetti/svelte
+229 verbose url raw types/cookie
+230 verbose url resolving [ 'https://registry.npmjs.org/', './types/cookie' ]
+231 verbose url resolved https://registry.npmjs.org/types/cookie
+232 info trying registry request attempt 1 at 11:24:10 AM
+233 http GET https://registry.npmjs.org/types/cookie
+234 verbose url raw typescript-eslint/eslint-plugin
+235 verbose url resolving [ 'https://registry.npmjs.org/', './typescript-eslint/eslint-plugin' ]
+236 verbose url resolved https://registry.npmjs.org/typescript-eslint/eslint-plugin
+237 info trying registry request attempt 1 at 11:24:10 AM
+238 http GET https://registry.npmjs.org/typescript-eslint/eslint-plugin
+239 info addNameTag [ 'fontsource/fira-mono', '^4.5.0' ]
+240 verbose url raw sveltejs/kit
+241 verbose url resolving [ 'https://registry.npmjs.org/', './sveltejs/kit' ]
+242 verbose url resolved https://registry.npmjs.org/sveltejs/kit
+243 info trying registry request attempt 1 at 11:24:10 AM
+244 http GET https://registry.npmjs.org/sveltejs/kit
+245 verbose url raw typescript-eslint/parser
+246 verbose url resolving [ 'https://registry.npmjs.org/', './typescript-eslint/parser' ]
+247 verbose url resolved https://registry.npmjs.org/typescript-eslint/parser
+248 info trying registry request attempt 1 at 11:24:10 AM
+249 http GET https://registry.npmjs.org/typescript-eslint/parser
+250 verbose url raw eslint-config-prettier
+251 verbose url resolving [ 'https://registry.npmjs.org/', './eslint-config-prettier' ]
+252 verbose url resolved https://registry.npmjs.org/eslint-config-prettier
+253 info trying registry request attempt 1 at 11:24:10 AM
+254 http GET https://registry.npmjs.org/eslint-config-prettier
+255 verbose url raw prettier-plugin-svelte
+256 verbose url resolving [ 'https://registry.npmjs.org/', './prettier-plugin-svelte' ]
+257 verbose url resolved https://registry.npmjs.org/prettier-plugin-svelte
+258 info trying registry request attempt 1 at 11:24:10 AM
+259 http GET https://registry.npmjs.org/prettier-plugin-svelte
+260 info addNameTag [ 'vite', '^3.1.0' ]
+261 verbose url raw eslint
+262 verbose url resolving [ 'https://registry.npmjs.org/', './eslint' ]
+263 verbose url resolved https://registry.npmjs.org/eslint
+264 info trying registry request attempt 1 at 11:24:10 AM
+265 http GET https://registry.npmjs.org/eslint
+266 verbose url raw eslint-plugin-svelte3
+267 verbose url resolving [ 'https://registry.npmjs.org/', './eslint-plugin-svelte3' ]
+268 verbose url resolved https://registry.npmjs.org/eslint-plugin-svelte3
+269 info trying registry request attempt 1 at 11:24:10 AM
+270 http GET https://registry.npmjs.org/eslint-plugin-svelte3
+271 verbose url raw svelte
+272 verbose url resolving [ 'https://registry.npmjs.org/', './svelte' ]
+273 verbose url resolved https://registry.npmjs.org/svelte
+274 info trying registry request attempt 1 at 11:24:10 AM
+275 http GET https://registry.npmjs.org/svelte
+276 verbose url raw prettier
+277 verbose url resolving [ 'https://registry.npmjs.org/', './prettier' ]
+278 verbose url resolved https://registry.npmjs.org/prettier
+279 info trying registry request attempt 1 at 11:24:10 AM
+280 http GET https://registry.npmjs.org/prettier
+281 verbose url raw svelte-check
+282 verbose url resolving [ 'https://registry.npmjs.org/', './svelte-check' ]
+283 verbose url resolved https://registry.npmjs.org/svelte-check
+284 info trying registry request attempt 1 at 11:24:10 AM
+285 http GET https://registry.npmjs.org/svelte-check
+286 verbose url raw svelte-preprocess
+287 verbose url resolving [ 'https://registry.npmjs.org/', './svelte-preprocess' ]
+288 verbose url resolved https://registry.npmjs.org/svelte-preprocess
+289 info trying registry request attempt 1 at 11:24:10 AM
+290 http GET https://registry.npmjs.org/svelte-preprocess
+291 verbose url raw tslib
+292 verbose url resolving [ 'https://registry.npmjs.org/', './tslib' ]
+293 verbose url resolved https://registry.npmjs.org/tslib
+294 info trying registry request attempt 1 at 11:24:10 AM
+295 http GET https://registry.npmjs.org/tslib
+296 verbose url raw typescript
+297 verbose url resolving [ 'https://registry.npmjs.org/', './typescript' ]
+298 verbose url resolved https://registry.npmjs.org/typescript
+299 info trying registry request attempt 1 at 11:24:10 AM
+300 http GET https://registry.npmjs.org/typescript
+301 verbose url raw fontsource/fira-mono
+302 verbose url resolving [ 'https://registry.npmjs.org/', './fontsource/fira-mono' ]
+303 verbose url resolved https://registry.npmjs.org/fontsource/fira-mono
+304 info trying registry request attempt 1 at 11:24:10 AM
+305 http GET https://registry.npmjs.org/fontsource/fira-mono
+306 verbose url raw vite
+307 verbose url resolving [ 'https://registry.npmjs.org/', './vite' ]
+308 verbose url resolved https://registry.npmjs.org/vite
+309 info trying registry request attempt 1 at 11:24:10 AM
+310 http GET https://registry.npmjs.org/vite
+311 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+312 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+313 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+314 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+315 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+316 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+317 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+318 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+319 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+320 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+321 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+322 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+323 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+324 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+325 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+326 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+327 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+328 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+329 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+330 info trying registry request attempt 2 at 11:24:20 AM
+331 http GET https://registry.npmjs.org/eslint-config-prettier
+332 info trying registry request attempt 2 at 11:24:20 AM
+333 http GET https://registry.npmjs.org/neoconfetti/svelte
+334 info trying registry request attempt 2 at 11:24:20 AM
+335 http GET https://registry.npmjs.org/vite
+336 info trying registry request attempt 2 at 11:24:20 AM
+337 http GET https://registry.npmjs.org/typescript-eslint/eslint-plugin
+338 info trying registry request attempt 2 at 11:24:20 AM
+339 http GET https://registry.npmjs.org/prettier
+340 info trying registry request attempt 2 at 11:24:20 AM
+341 http GET https://registry.npmjs.org/svelte-check
+342 info trying registry request attempt 2 at 11:24:20 AM
+343 http GET https://registry.npmjs.org/tslib
+344 info trying registry request attempt 2 at 11:24:20 AM
+345 http GET https://registry.npmjs.org/sveltejs/kit
+346 info trying registry request attempt 2 at 11:24:20 AM
+347 http GET https://registry.npmjs.org/sveltejs/adapter-auto
+348 info trying registry request attempt 2 at 11:24:20 AM
+349 http GET https://registry.npmjs.org/eslint-plugin-svelte3
+350 info trying registry request attempt 2 at 11:24:20 AM
+351 http GET https://registry.npmjs.org/svelte
+352 info trying registry request attempt 2 at 11:24:20 AM
+353 http GET https://registry.npmjs.org/typescript-eslint/parser
+354 info trying registry request attempt 2 at 11:24:20 AM
+355 http GET https://registry.npmjs.org/typescript
+356 info trying registry request attempt 2 at 11:24:20 AM
+357 http GET https://registry.npmjs.org/svelte-preprocess
+358 info trying registry request attempt 2 at 11:24:20 AM
+359 http GET https://registry.npmjs.org/playwright/test/1.25.0
+360 info trying registry request attempt 2 at 11:24:20 AM
+361 http GET https://registry.npmjs.org/eslint
+362 info trying registry request attempt 2 at 11:24:20 AM
+363 http GET https://registry.npmjs.org/fontsource/fira-mono
+364 info trying registry request attempt 2 at 11:24:20 AM
+365 http GET https://registry.npmjs.org/prettier-plugin-svelte
+366 info trying registry request attempt 2 at 11:24:20 AM
+367 http GET https://registry.npmjs.org/types/cookie
+368 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+369 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+370 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+371 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+372 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+373 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+374 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+375 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+376 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+377 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+378 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+379 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+380 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+381 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+382 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+383 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+384 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+385 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+386 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+387 info trying registry request attempt 3 at 11:25:20 AM
+388 http GET https://registry.npmjs.org/prettier
+389 info trying registry request attempt 3 at 11:25:20 AM
+390 http GET https://registry.npmjs.org/sveltejs/kit
+391 info trying registry request attempt 3 at 11:25:20 AM
+392 http GET https://registry.npmjs.org/typescript
+393 info trying registry request attempt 3 at 11:25:20 AM
+394 http GET https://registry.npmjs.org/svelte-check
+395 info trying registry request attempt 3 at 11:25:20 AM
+396 http GET https://registry.npmjs.org/types/cookie
+397 info trying registry request attempt 3 at 11:25:20 AM
+398 http GET https://registry.npmjs.org/eslint-config-prettier
+399 info trying registry request attempt 3 at 11:25:20 AM
+400 http GET https://registry.npmjs.org/typescript-eslint/eslint-plugin
+401 info trying registry request attempt 3 at 11:25:20 AM
+402 http GET https://registry.npmjs.org/svelte
+403 info trying registry request attempt 3 at 11:25:20 AM
+404 http GET https://registry.npmjs.org/tslib
+405 info trying registry request attempt 3 at 11:25:20 AM
+406 http GET https://registry.npmjs.org/sveltejs/adapter-auto
+407 info trying registry request attempt 3 at 11:25:20 AM
+408 http GET https://registry.npmjs.org/eslint
+409 info trying registry request attempt 3 at 11:25:20 AM
+410 http GET https://registry.npmjs.org/typescript-eslint/parser
+411 info trying registry request attempt 3 at 11:25:20 AM
+412 http GET https://registry.npmjs.org/eslint-plugin-svelte3
+413 info trying registry request attempt 3 at 11:25:20 AM
+414 http GET https://registry.npmjs.org/playwright/test/1.25.0
+415 info trying registry request attempt 3 at 11:25:20 AM
+416 http GET https://registry.npmjs.org/prettier-plugin-svelte
+417 info trying registry request attempt 3 at 11:25:20 AM
+418 http GET https://registry.npmjs.org/fontsource/fira-mono
+419 silly lockFile 8a6442a9-sveltejs-kit-next sveltejs/kit@next
+420 error Error: unable to get local issuer certificate
+420 error     at TLSSocket.onConnectSecure (node:_tls_wrap:1539:34)
+420 error     at TLSSocket.emit (node:events:513:28)
+420 error     at TLSSocket._finishInit (node:_tls_wrap:953:8)
+420 error     at TLSWrap.ssl.onhandshakedone (node:_tls_wrap:734:12)
+421 error If you need help, you may report this log at:
+421 error     <http://github.com/isaacs/npm/issues>
+421 error or email it to:
+421 error     <npm-@googlegroups.com>
+422 error System Windows_NT 10.0.19044
+423 error command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+424 error cwd C:\Users\eh.sadeghi\Desktop\my-app
+425 error node -v v16.18.0
+426 error npm -v 1.2.0
+427 error code UNABLE_TO_GET_ISSUER_CERT_LOCALLY
+428 verbose exit [ 1, true ]
